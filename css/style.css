@@ -1,0 +1,106 @@
+head, nav, .content, .contentbutton, footer {
+	background: #ffffff;
+	color : #003a49;
+	letter-spacing: 120;
+	font-family: 'Roboto', Arial;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+nav, td p{
+	align-items: center;
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+table {
+	align-items: center;
+}
+
+.ico{
+	height: 15px;
+	width: 15px;
+}
+
+.liennav{
+	color: #003a49;
+	text-decoration: none;
+	justify-content: space-around;
+}
+
+.liennav:hover, .liennav:active{
+	color: #f14928;
+	text-decoration: underline;
+}
+
+header {
+	color : #003a49;
+	letter-spacing: 120;
+	text-align: center;
+	line-height: 55px;
+	height: 120px;
+	background-image: url('../images/lokahiboards--header-default');
+	font-family: 'Roboto', Arial;
+}
+
+p {
+	font-size: 14pt;
+	color : #003a49;
+	font-family: Arial;
+}
+
+h1 {
+	font-size: 30pt;
+	color: #ffffff;
+}
+
+h2, h3, h4, h5, h6 {
+	color : #003a49;
+	font-family: 'Roboto', Arial;
+}
+
+h2 {
+	font-size: 26pt;
+}
+
+h3 {
+	font-size: 24pt;
+}
+
+h4 {
+	font-size: 18pt;
+}
+
+h5 {
+	font-size: 16pt;
+}
+
+
+.liencorps {
+	color: #f14928;
+	text-decoration: none;
+}
+
+.liencorps:hover {
+	color: #003a49;
+	text-decoration: none;
+}
+
+.contentbutton{
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+button{
+	background-color: #003a49;
+	color: #ffffff;
+	border: 2px solid;
+	border-color: #003a49;
+}
+
+button:hover, button:active{
+	background-color: #ffffff;
+	color: #f14928;
+	border: 2px solid;
+	border-color: #f14928;
+}
