@@ -18,8 +18,8 @@
 				varius. Proin faucibus et arcu nec vulputate.
 			</p>
 		</div>
-		<div id="content">
-			<video src="/Projets/Lokahi/videos/LOKAHI - HUMAN STORY.mp4"></video>
+		<div class="content" style="align-items: center;">
+			<video src="../videos/LOKAHI - HUMAN STORY.mp4" type="video/mp4" width="100%" height="100%"></video>
    		</div>
 	</body>
 	<?php require '../includes/footer.php' ?>
