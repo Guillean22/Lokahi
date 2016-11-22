@@ -1,5 +1,5 @@
 		<nav>
-			<table>
+			<table id="tablenav">
 				<tr>
 					<td rowspan="2">
 						<a href="/Projets/Lokahi/index.php"><img src="/Projets/Lokahi/images/logo-lokahi-menu-top.png"></a>
