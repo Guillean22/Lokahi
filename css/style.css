@@ -3,7 +3,7 @@ head, .content, .contentbutton, footer {
 	background: #ffffff;
 	color : #003a49;
 	letter-spacing: 120;
-	font-family: 'Roboto', Arial;
+	font-family: 'Roboto-Medium', Arial;
 	margin-left: 100px;
 	margin-right: 100px;
 }
@@ -14,7 +14,7 @@ nav{
 	background: #ffffff;
 	color : #003a49;
 	letter-spacing: 120;
-	font-family: 'Roboto', Arial;
+	font-family: 'Roboto-Medium', Arial;
 	position: fixed;
 	width: 100%;
 }
@@ -39,7 +39,7 @@ nav, td p{
 .liennav{
 	color: #003a49;
 	text-decoration: none;
-	justify-content: space-around;
+	margin-left: 45px;
 }
 
 .liennav:hover, .liennav:active{
@@ -47,17 +47,33 @@ nav, td p{
 	text-decoration: underline;
 }
 
+.navlist{
+	list-style-type: none;
+}
+
+.navlist li{
+	display: inline;
+}
+
+.navleft{
+	justify-content: flex-start;
+}
+
+.navright{
+	justify-content: flex-end;
+}
 /* HEADER */
 header {
-	top: 100px;
 	color : #003a49;
 	letter-spacing: 120;
 	text-align: center;
 	line-height: 55px;
 	height: 120px;
 	background-image: url('../images/lokahiboards--header-default');
-	font-family: 'Roboto', Arial;
+	font-family: 'Roboto-Medium', Arial;
 }
+
+
 
 /* CONTENT */
 p {
@@ -73,7 +89,7 @@ h1 {
 
 h2, h3, h4, h5, h6 {
 	color : #003a49;
-	font-family: 'Roboto', Arial;
+	font-family: 'Roboto-Medium', Arial;
 }
 
 h2 {
@@ -143,7 +159,7 @@ footer{
 footer div p{
 	font-size: 8pt;
 	color : #003a49;
-	font-family: "Roboto", Arial;
+	font-family: 'Roboto-Medium', Arial;
 }
 
 textarea{

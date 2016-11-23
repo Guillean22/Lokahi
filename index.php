@@ -2,7 +2,7 @@
 	<body>
 		<?php require 'includes/navbar.php' ?>
 		<header>
-			<h1>HELLO WORLD !</h1>
+			<h1 class="titreheader">HELLO WORLD !</h1>
 		</header>
 		<div class="content">
 			<p>I'm a badass!</p>

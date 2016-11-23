@@ -2,7 +2,7 @@
 	<body>
 		<?php require '../includes/navbar.php' ?>
 		<header>
-			<h1>TITRE H1, ROBOTO, MEDIUM, 30PT, INTERLETTRE120</h1>
+			<h1 class="titreheader">TITRE H1, ROBOTO, MEDIUM, 30PT, INTERLETTRE120</h1>
 		</header>
 		<div class="content">
 			<h2>H2, ROBOTO, MEDIUM, 26PT, INTERLETTRAGE 120</h2>

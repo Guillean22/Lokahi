@@ -2,7 +2,7 @@
 	<body>
 		<?php require '../includes/navbar.php' ?>
 		<header>
-			<h1>TITRE H1, ROBOTO, MEDIUM, 30PT, INTERLETTRE120</h1>
+			<h1 class="titreheader">TITRE H1, ROBOTO, MEDIUM, 30PT, INTERLETTRE120</h1>
 		</header>
 		<div class="content">
 			<img src="">
@@ -19,7 +19,7 @@
 			</p>
 		</div>
 		<div class="content" style="align-items: center;">
-			<video src="../videos/LOKAHI - HUMAN STORY.mp4" type="video/mp4" width="100%" height="100%"></video>
+			<video src="../videos/LOKAHI-HUMANSTORY.mp4" type="video/mp4" width="100%" height="100%"></video>
    		</div>
 	</body>
 	<?php require '../includes/footer.php' ?>
