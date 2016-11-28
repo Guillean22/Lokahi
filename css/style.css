@@ -8,6 +8,11 @@ head, .content, .contentbutton, footer {
 	margin-right: 100px;
 }
 
+html{
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
 /* NAVBAR */
 nav{
 	top: 0px;
@@ -125,12 +130,19 @@ header {
 	font-family: 'Roboto-Medium', Arial;
 }
 
+/* PHILO */
 #headerphilo{
 	background-image: url('../images/lokahiboards--header-default');
+	width: 100%;
 	height: 120px;
 }
 
-
+/* CONTACT */
+#headercontact{
+	background-image: url('../images/bg-header-contact.jpg');
+	width: 100%;
+	height: auto;
+}
 
 /* CONTENT */
 p {
@@ -213,7 +225,7 @@ footer{
 }
 
 .tetefoot{
-	display: flex;
+	display: inline-flex;
 	flex-wrap: nowrap;
 	font-size: 8pt;
 }
