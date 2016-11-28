@@ -1,11 +1,23 @@
 <?php require 'includes/head.php' ?>
 	<body>
-		<?php require 'includes/navbar.php' ?>
-		<header>
-			<h1 class="titreheader">HELLO WORLD !</h1>
+		<?php require 'includes/navbarindex.php' ?>
+		<header id="headerindex">
+			<img src="images/lokahiboards-image-slider.jpg">
 		</header>
 		<div class="content">
-			<p>I'm a badass!</p>
+			<table id="tableindex">
+				<tr>
+					<td>
+						<img src="">
+					</td>
+					<td>
+						<img src="">
+					</td>
+					<td>
+						<img src="">
+					</td>
+				</tr>
+			</table>
 		</div>
 	</body>
-	<?php require 'includes/footer.php' ?>
+	<?php require 'includes/footerindex.php' ?>

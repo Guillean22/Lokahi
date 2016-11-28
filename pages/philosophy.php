@@ -1,7 +1,7 @@
 <?php require '../includes/head.php' ?>
 	<body>
 		<?php require '../includes/navbar.php' ?>
-		<header>
+		<header id="headerphilo">
 			<h1 class="titreheader">TITRE H1, ROBOTO, MEDIUM, 30PT, INTERLETTRE120</h1>
 		</header>
 		<div class="content">
