@@ -1,31 +1,39 @@
 <?php require '../includes/head.php' ?>
 	<body>
 		<?php require '../includes/navbar.php' ?>
-		<header id="headercontact">
+		<div id="headercontact">
 			<h1 class="titreheader">CONTACT</h1>
-		</header>
+		</div>
 		<div class="content">
-			<h2></h2>
+			<h4>CONTACT</h4>
+			<p style="color: #f14928;">___</p>
 			<form>
-				<input type="text" name="namecontact" value="NAME AND SURNAME">
-				<input type="text" name="emailcontact" value="YOUR E-MAIL">
-				<br />
-				<select>
-					<option value="fr">France</option>
-					<option value="us">United-States</option>
-					<option value="uk">United-Kingdom</option>
-					<option value="sw">Swiss</option>
-				</select>
-				<select>
-					<option value="distributor">A DISTRIBUTOR</option>
-					<option value="shop">A SHOP</option>
-					<option value="rider">A RIDER</option>
-					<option value="client">A CLIENT</option>
-				</select>
-				<br />
-				<input type="" name="">
-				<br />
-				<input type="submit" name="submitcontact" value="SEND">
+				<div class="formcontact">
+					<input type="text" class="textcontact" name="namecontact" value="NAME AND SURNAME">
+					<input type="text" class="textcontact" name="emailcontact" value="YOUR E-MAIL">
+				</div>
+				<div class="formcontact">
+					<select class="selectcontact">
+						<option value="_co_">COUNTRY</option>
+						<option value="fr">France</option>
+						<option value="us">United-States</option>
+						<option value="uk">United-Kingdom</option>
+						<option value="sw">Swiss</option>
+					</select>
+					<select class="selectcontact">
+						<option value="_cli_">I AM :</option>
+						<option value="distributor">A DISTRIBUTOR</option>
+						<option value="shop">A SHOP</option>
+						<option value="rider">A RIDER</option>
+						<option value="client">A CLIENT</option>
+					</select>
+				</div>
+				<div class="formcontact">
+					<textarea class="textareacontact" name="areacontact">TAPE YOUR MESSAGE HERE :</textarea>
+				</div>
+				<div class="formcontact">
+					<input type="submit"  class="buttoncontact" name="submitcontact" value="SEND">
+				</div>
 			</form>
 		</div>
 	</body>
