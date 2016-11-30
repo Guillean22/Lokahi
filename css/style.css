@@ -90,19 +90,21 @@ nav, td p{
 .slideralign{
 	display: flex;
 	flex-wrap: nowrap;
-	justify-content: space-around;
+	justify-content: space-between;
+	margin-left: 0%;
+	margin-right: 0%;
 }
 
 #slider {
-  	width: 1243px;
-	height: 500px;
+  	width: 100%;
+	height: 600px;
 	overflow: hidden;
-	border: 2px solid #666;
+	border: 1px solid gray;
 }
 
 #sliderImages {
-	width : 6275px;
-	height: 500px;
+	width : 500%;
+	height: 600px;
 	overflow: hidden;
 	
 	/* animation duration: 16s : 5x ~3s display image + 5x ~0.2s slide */
@@ -119,54 +121,54 @@ nav, td p{
 @keyframes slide{
 	0%{margin-left: 0px;}
 	17%{margin-left: 0px;}
-	20%{margin-left: -1243px;}
-	37%{margin-left: -1243px;}
-	40%{margin-left: -2486px;}
-	57%{margin-left: -2486px;}
-	60%{margin-left: -3729px;}
-	77%{margin-left: -3729px;}
-	80%{margin-left: -4972px;}
-	97%{margin-left: -4972px;}
+	20%{margin-left: -100%;}
+	37%{margin-left: -100%;}
+	40%{margin-left: -200%;}
+	57%{margin-left: -200%;}
+	60%{margin-left: -300%;}
+	77%{margin-left: -300%;}
+	80%{margin-left: -400%;}
+	97%{margin-left: -400%;}
 	100%{margin-left: 0px;}
 }
 
 @-moz-keyframes slide{
 	0%{margin-left: 0px;}
 	17%{margin-left: 0px;}
-	20%{margin-left: -1243px;}
-	37%{margin-left: -1243px;}
-	40%{margin-left: -2486px;}
-	57%{margin-left: -2486px;}
-	60%{margin-left: -3729px;}
-	77%{margin-left: -3729px;}
-	80%{margin-left: -4972px;}
-	100%{margin-left: -4972px;}
+	20%{margin-left: -100%;}
+	37%{margin-left: -100%;}
+	40%{margin-left: -200%;}
+	57%{margin-left: -200%;}
+	60%{margin-left: -300%;}
+	77%{margin-left: -300%;}
+	80%{margin-left: -400%;}
+	100%{margin-left: -400%;}
 }
 
 @-webkit-keyframes slide{
 	0%{margin-left: 0px;}
 	17%{margin-left: 0px;}
-	20%{margin-left: -1243px;}
-	37%{margin-left: -1243px;}
-	40%{margin-left: -2486px;}
-	57%{margin-left: -2486px;}
-	60%{margin-left: -3729px;}
-	77%{margin-left: -3729px;}
-	80%{margin-left: -4972px;}
-	100%{margin-left: -4972px;}
+	20%{margin-left: -100%;}
+	37%{margin-left: -100%;}
+	40%{margin-left: -200%;}
+	57%{margin-left: -200%;}
+	60%{margin-left: -300%;}
+	77%{margin-left: -300%;}
+	80%{margin-left: -400%;}
+	100%{margin-left: -400%;}
 }
 
 @-o-keyframes slide{
 	0%{margin-left: 0px;}
 	17%{margin-left: 0px;}
-	20%{margin-left: -1243px;}
-	37%{margin-left: -1243px;}
-	40%{margin-left: -2486px;}
-	57%{margin-left: -2486px;}
-	60%{margin-left: -3729px;}
-	77%{margin-left: -3729px;}
-	80%{margin-left: -4972px;}
-	100%{margin-left: -4972px;}
+	20%{margin-left: -100%;}
+	37%{margin-left: -100%;}
+	40%{margin-left: -200%;}
+	57%{margin-left: -200%;}
+	60%{margin-left: -300%;}
+	77%{margin-left: -300%;}
+	80%{margin-left: -400%;}
+	100%{margin-left: -400%;}
 }
 
 /*------------------------------------------------------------------------------------------------------------------------------------------------------------*/
@@ -266,9 +268,95 @@ button:hover, button:active{
 
 /* INDEX */
 #fleximgs{
-	display: inline-flex;
+	margin-left: 5%;
+	width: 90%;
+	display: flex;
 	flex-wrap: nowrap;
 	justify-content: space-between;
+}
+
+.divimg{
+	width: 330px;
+	height: 198px;
+	z-index: 0;
+}
+
+#divimg-race{
+	background-image: url('../images/img-race.jpg');
+}
+
+#divimg-wave{
+	background-image: url('../images/img-wave.jpg');
+}
+
+#divimg-discover{
+	background-image: url('../images/img-discover.jpg');
+}
+
+#ico-race, #ico-wave, #ico-discover{
+	position: absolute;
+	margin-left: 109.5px;
+	margin-right: 109.5px;
+	margin-top: 63.5px;
+	margin-bottom: 63.5px;
+	z-index: 1;
+}
+
+.divhidden{
+	width: 280px;
+	height: 170px;
+	display: none;
+	visibility: hidden;
+	background-color: white;
+	position: absolute;
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-top: 14px;
+	margin-bottom: 14px;
+	z-index: 2;
+}
+
+#divimg-race:hover #hidden-race{
+	display: block;
+	visibility: visible;
+}
+
+#divimg-wave:hover #hidden-wave{
+	display: block;
+	visibility: visible;
+}
+
+#divimg-discover:hover #hidden-discover{
+	display: block;
+	visibility: visible;
+}
+
+#hidden-ico-race, #hidden-ico-wave, #hidden-ico-discover{
+	position: absolute;
+	margin-left: 84.5px;
+	margin-right: 84.5px;
+	margin-top: 49.5px;
+	margin-bottom: 49.5px;
+	z-index: 3;
+}
+
+.buttonindex{
+	position: absolute;
+	width: 110px;
+	margin-left: 84px;
+	margin-right: 84px;
+	margin-top: 110px;
+	margin-bottom: 20px;
+	z-index: 4;
+	background-color: white;
+	color: #f14928;
+	border: 2px solid #f14928;
+}
+
+.buttonindex:hover{
+	background-color: #f14928;
+	color: white;
+	border: 2px solid #f14928;
 }
 
 /* CONTACT */

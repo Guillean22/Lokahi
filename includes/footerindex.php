@@ -1,7 +1,8 @@
 	<footer>
 		<div id="newsfoot">
-			<p class="tetefoot">NEWSLETTER</p>
-			<p class="tetefoot" style="color:#f14928;">____</p>
+			<p class="tetefoot">NEWSLETTER
+				<span style="color:#f14928;">____</span>
+			</p>
 			<p></p>
 			<textarea>VOTRE E-MAIL</textarea>
 			<p></p>
@@ -9,7 +10,7 @@
 		</div>
 		<div id="pagesfoot">
 			<p class="tetefoot">PAGES
-				<p class="tetefoot" style="color:#f14928;">____<br /></p>
+				<span style="color:#f14928;">____</span>
 			</p>
 			<p><a class="lienfooter" href="#">Catalog 2016</a></p>
 			<p><a class="lienfooter" href="/Projets/Lokahi/pages/legal.php">Legal Notice</a></p>
@@ -18,11 +19,10 @@
 		</div>
 		<div id="contactfoot">
 			<p class="tetefoot">CONTACT
-				<p class="tetefoot" style="color:#f14928;">____&nbsp;
-					<img class="ico" src="/Projets/Lokahi/images/ico-social-insta.png">
-					<img class="ico" src="/Projets/Lokahi/images/ico-social-fb.png">
-					<br />
-				</p>
+				<span style="color:#f14928;">____&nbsp;&nbsp;</span>
+				<img class="ico" src="/Projets/Lokahi/images/ico-social-insta.png">
+				<img class="ico" src="/Projets/Lokahi/images/ico-social-fb.png">
+				<br />
 			</p>
 			<p>Lokahi Boards<br />
 			8, rue Georges Guynemer<br />
